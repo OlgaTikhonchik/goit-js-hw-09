@@ -10,6 +10,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-color: beige;
 }
 
 img {
@@ -72,9 +73,12 @@ img {
 }
 
 .field {
-  display: inline-flex;
   flex-direction: column-reverse;
   align-items: center;
+  display: inline-flex;
+  border: 2px dashed blueviolet;
+  border-radius: 50px;
+  padding: 10px;
 }
 
 .value {
