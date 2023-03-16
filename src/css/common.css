@@ -16,3 +16,80 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/*timer */
+.container {
+  align-items: center;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.container.timer {
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 100%;
+}
+
+.picker {
+  width: 400px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 20px;
+  border: 3px dashed rebeccapurple;
+  align-items: center;
+}
+
+.btn-start {
+  display: inline-block;
+  font-size: 40;
+  font-weight: 600;
+  padding: 15px 20px;
+  border: 2px solid darkorchid;
+  border-radius: 15px;
+  text-transform: uppercase;
+  color: rgb(53, 26, 80);
+  background-color: rgb(213, 128, 212);
+  box-shadow: 0 0 10px 0 #4a87ea inset, 0 0 10px 4px #4a87ea;
+}
+
+.btn-start:hover {
+  color: whitesmoke;
+  background-color: blueviolet;
+}
+
+.btn-start:disabled {
+  color: rgb(98, 61, 132);
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.field {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.value {
+  font-size: 60px;
+  font-weight: 500;
+  color: rgb(81, 22, 57);
+}
+
+.label {
+  font-size: 40px;
+  color: rgb(165, 42, 144);
+}
+
+.timer {
+  max-width: 100%;
+  gap: 30px;
+  display: flex;
+}
